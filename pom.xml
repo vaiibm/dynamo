@@ -92,7 +92,7 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <build>
+  <!-- <build>
     <plugins>
       <plugin>
         <groupId>${quarkus.platform.group-id}</groupId>
@@ -108,8 +108,8 @@
             </goals>
           </execution>
         </executions>
-      </plugin>
-      <plugin>
+      </plugin> -->
+      <!-- <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
         <version>${compiler-plugin.version}</version>
         <configuration>
@@ -129,7 +129,7 @@
         </configuration>
       </plugin>
     </plugins>
-  </build>
+  </build> -->
   <profiles>
     <profile>
         <id>native</id>
